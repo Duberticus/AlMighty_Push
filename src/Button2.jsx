@@ -9,8 +9,8 @@ function Button2() {
             const id = setInterval(() => {
                 if (buttonRef.current) {
                     buttonRef.current.style.position = "absolute";
-                    buttonRef.current.style.left = `${Math.random() * (window.innerWidth)}px`; 
-                    buttonRef.current.style.top = `${Math.random() * (window.innerHeight)}px`;
+                    buttonRef.current.style.left = `${Math.random() * (window.innerWidth)-100}px`; 
+                    buttonRef.current.style.top = `${Math.random() * (window.innerHeight)-25}px`;
                 }
             }, 10); 
             setIntervalId(id);
@@ -25,7 +25,7 @@ function Button2() {
     };
 
     const handleClick = () => {
-        alert("noooooooo");
+        alert("Stupid bitch you fat anyways");
     };
 
     return (
@@ -36,7 +36,7 @@ function Button2() {
             onClick={handleClick}
             style={{ position: "absolute" }}
         >
-            2nd button
+            NOOOOO!!!!!!!!!!!!!!
         </button>
     );
 }
